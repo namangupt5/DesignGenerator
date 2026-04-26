@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/namangupt/Downloads/uigen -maxdepth 2 -type f -name *.md -o -name CLAUDE.md -o -name .cursorrules -o -name copilot-instructions.md)",
+      "Bash(npx vitest:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx tsc:*)",
+      "mcp__playwright",
+      "Bash(open:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Create a pricing card component with three tiers: Basic, Pro, and Enterprise\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}' --max-time 60)",
+      "Read(//Users/namangupt/.claude/plugins/marketplaces/caveman/skills/compress/**)",
+      "Bash(python3 -m scripts /Users/namangupt/Downloads/uigen/CLAUDE.md)",
+      "Bash(npx playwright:*)",
+      "Bash(playwright install:*)",
+      "Bash(python3:*)",
+      "Bash(rm /Users/namangupt/Downloads/uigen/.github/workflows)",
+      "Bash(mkdir /Users/namangupt/Downloads/uigen/.github/workflows)"
+    ]
+  }
+}
